@@ -1,0 +1,306 @@
+@import 'fonts.css';
+
+:root {
+    --f700: 'Montserrat-Bold';
+    --red: #f0454c;
+    --dark: #314a5b;
+    --greey: #9aa0ab;
+    --w: #ffffff;
+}
+
+/* ----------------------------------------------------- */
+
+
+
+.header {
+    background: url(../images/header_fon.jpg) no-repeat center center / cover ;
+    width: 100%;
+    height: 180vh;
+    
+}
+
+
+.free {
+    width: 142px;
+    height: 90px;
+    border-radius: 20px;
+    background: var(--red);
+    color: var(--w);
+    margin-top: -25px;
+}
+
+.free__text {
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+
+.nav-item a {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: var(--dark);
+    font-weight: 600;
+
+}
+
+
+.nav-item {
+    margin-left: 46px;
+}
+
+
+.web {
+   margin-left: 5px;
+   margin-top: 9px;
+}
+
+
+.web a {
+    color: var(--red);
+    padding-left: 19px;
+    padding-top: 10px;
+}
+
+/* ---------------------- */
+
+
+.header__text {
+    margin-top: 353px;
+}
+
+
+
+.header__text-title {
+    font-family: var(--f700);
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--dark);
+    margin-bottom: -13px;
+}
+
+
+.header__text-p {
+    color: var(--dark);
+    font-size: 20px;
+    margin: 42px 0 46px 0;
+}
+
+
+.header__text-end {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: var(--w);
+    padding: 24px 28px;
+    background: var(--red);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
+.header__text-end:hover {
+    text-decoration: none;
+    box-shadow:  grey 0px 0px 26px;
+    color: var(--w);
+    border: solid 2px #f0050c;
+}
+
+.header__text__title-sp {
+    color: #f0454c;
+    margin-left: -12px;
+}
+
+
+/* ------------------------------------  section  --------------------------------------- */
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 40px;
+   
+}
+
+
+.section__text {
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+
+.section__text-title {
+    font-family: var(--f700);
+    font-size: 34px;
+    text-transform: uppercase;
+    color: var(--dark);
+    margin-bottom: -11px;
+}
+
+
+.section__text__title-sp {
+    color: #f0454c;
+    margin-left: -10px;
+}
+
+.section__text__title-sp2 {
+    color: #f0454c;
+    
+}
+
+.section__text-p{
+    padding: 35px 0;
+    font-size: 18px;
+    color: var(--greey);
+   
+}
+
+
+.btn{
+    font-size: 14px;
+    color: var(--red);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.btn:hover{
+    color: rgba(255, 1, 1, 0.493);
+    text-decoration: none;
+}
+
+.card-body {
+    font-size: 18px;
+    color: var(--greey); 
+    box-shadow: 0 0 20px;
+}
+
+/* ---section_portfolio--- */
+
+.section__portfolio__foto {
+    margin-bottom: 30px;
+}
+
+
+.section__port {
+    padding-top: 30px;
+    padding-left: 20px ;
+}
+
+.section__portfolio-title {
+    font-family: var(--f700);
+    font-size: 34px;
+    text-transform: uppercase;
+    color: var(--dark);
+    font-weight: 900;
+    
+}
+
+
+.section__portfolio__title-sp {
+    color: #f0454c;
+    margin-left: -10px;
+}
+
+
+
+.section__portfolio-p {
+    font-size: 18px;
+    color: var(--greey); 
+}
+
+
+
+.section__portfolio-p1 {
+    font-size: 18px;
+    color: var(--dark);
+    font-weight: 600; 
+}
+
+
+
+
+/* ----------------------------------------   main   ------------------------------------------- */
+
+
+
+.our_team__text {
+    font-family: var(--f700);
+    font-size: 32px;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+.our_team__text-sp {
+    color: var(--red);
+    margin-left: -9px;
+}
+
+.our_team__p {
+    font-size: 16px;
+    color: var(--greey);
+}
+
+.main__text {
+    padding-top: 20px;
+}
+
+
+
+.main__text-h {
+    font-family: var(--f700);
+    font-size: 22px;
+    color: var(--dark);
+    text-transform: uppercase;
+
+}
+
+
+.main__text-p {
+    color: var(--red);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main__text-p1 {
+    color: var(--greey);
+    font-size: 14px;
+}
+
+
+
+.team_5 {
+  text-align: end !important;
+}
+
+
+/* -------------------------------------------   footer    --------------------------------------------- */
+
+.footer {
+    padding-bottom: 165px;
+}
+.footer__line {
+    width: 100%;
+    height: 1px;
+    background: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.footer__icon i {
+    color: var(--greey);
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+
+.footer__text-p {
+    color: var(--greey);
+    font-size: 17px;
+}
+
+
+
